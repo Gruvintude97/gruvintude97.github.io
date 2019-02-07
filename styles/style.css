@@ -1,0 +1,226 @@
+* {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.navigation {
+  position: fixed;
+  height: 60px;
+  background-color: #f7d159;
+  z-index: 1;
+  opacity: 0.95;
+  border-bottom: solid .1px #ede576;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(173,171,173,1);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(173,171,173,1);
+  box-shadow: 0px 2px 5px 0px rgba(173,171,173,1);
+}
+
+.navigation ul {
+  padding-left: 10px;
+  font-family: 'Sarabun', sans-serif;
+}
+
+.navigation a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.image {
+  width: auto;
+  margin-top: 1px;
+}
+
+#home {
+  position: relative;
+  top: 4px;
+}
+
+#faq a {
+  position: absolute;
+  top: 19px;
+  width: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.rulerh {
+  position: absolute;
+  top: 60px;
+  left: 129px;
+  width: auto;
+  height: 129px;
+  min-width: 1425px;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(138,138,138,1);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(138,138,138,1);
+  box-shadow: 5px 5px 5px 0px rgba(138,138,138,1);
+}
+
+.rulerv {
+  position: absolute;
+  top: 190px;
+  width: auto;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(138,138,138,1);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(138,138,138,1);
+  box-shadow: 5px 5px 5px 0px rgba(138,138,138,1);
+}
+
+.blank-space {
+  position: absolute;
+  top: 60px;
+  width: 126.5px;
+  height: 128px;
+  background-color: #f7d159;
+  border-right: solid #574c4f 2px;
+  border-bottom: solid #574c4f 2px;
+}
+
+.instruct {
+  position: absolute;
+  top: -20px;
+  left: -80px;
+  width: 500px;
+  height: 500px;
+}
+
+.instructions {
+  position: absolute;
+  top: 258px;
+  left: 265px;
+  width: 226px;
+  font-family: 'Sarabun', sans-serif;
+  font-size: 10px;
+  color: #f7d159;
+}
+
+#right-arrow {
+  position: absolute;
+  top: 207px;
+  left: 242px;
+  width: 60px;
+  font-size: 60px;
+  color: #f7d159;
+}
+
+#down-arrow {
+  position: absolute;
+  top: 230px;
+  left: 230px;
+  width: 30px;
+  font-size: 60px;
+  color: #f7d159;
+}
+
+.footer {
+  position: absolute;
+  top: 1615px;
+  width: 1540px;
+  min-width: 98.9%;
+  height: 75px;
+  padding-left: 15px;
+  background-color: #f7d159;
+  text-align: left;
+  border-top: solid 1.5px #f7d159;
+  z-index: 1;
+  border-top: solid .1px #ede576;
+  -webkit-box-shadow: 0px -2px 5px 0px rgba(173,171,173,1);
+  -moz-box-shadow: 0px -2px 5px 0px rgba(173,171,173,1);
+  box-shadow: 0px -2px 5px 0px rgba(173,171,173,1);
+}
+
+.footer-text {
+  width: 290px;
+  padding-top: 8px;
+  font-family: 'Sarabun', sans-serif;
+  font-size: 13px;
+  color: #ffffff;
+}
+
+/*
+=============================
+  Frequently Asked Quesitions
+=============================
+*/
+
+.background-faq {
+  position: relative;
+  top: 60px;
+  width: 60%;
+  height: 935px;
+  margin: 0 auto;
+  background-color: #f7d159;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(138,138,138,1);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(138,138,138,1);
+  box-shadow: 0px 0px 5px 1px rgba(138,138,138,1);
+}
+
+.title-faq {
+  box-sizing: border-box;
+  padding: 10px;
+  padding-left: 10px;
+  font-family: 'Sarabun', sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  border-bottom: solid #ede576 1px;
+}
+
+.question-faq {
+  box-sizing: border-box;
+  padding-left: 5px;
+  font-family: 'Sarabun', sans-serif;
+  color: #ffffff;
+}
+
+.answer-faq {
+  padding: 5px;
+  box-sizing: border-box;
+  padding-left: 5px;
+  font-family: 'Sarabun', sans-serif;
+  color: #ffffff;
+  border-bottom: solid #ede576 1px;
+}
+
+.footer-faq {
+  position: absolute;
+  top: 997px;
+  box-sizing: border-box;
+  height: 75px;
+  padding-left: 15px;
+  background-color: #f7d159;
+  text-align: left;
+  -webkit-box-shadow: 0px -2px 5px 0px rgba(173,171,173,1);
+  -moz-box-shadow: 0px -2px 5px 0px rgba(173,171,173,1);
+  box-shadow: 0px -2px 5px 0px rgba(173,171,173,1);
+  border-top: solid .1px #ede576;
+  z-index: 1;
+}
+
+/*
+=============================
+  Media Tags
+=============================
+*/
+
+@media only screen and (max-width: 520px) {
+  .background-faq {
+    width: 100%;
+    border: solid 0px;
+  }
+}
+
+@media only screen and (max-width: 335px) {
+  .footer-text {
+    width: 260px;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .instructions {
+    display: none;
+  }
+}
